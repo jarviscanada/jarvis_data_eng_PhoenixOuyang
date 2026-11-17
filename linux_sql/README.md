@@ -28,9 +28,9 @@ crontab -e
 # Implementation
 
 ## Architecture
+Every node in the cluster runs the two agent scripts. All of them save the data to a PostgreSQL instance running in Docker.
 
 ![Monitoring agent architecture diagram](./assets/monitoring-agent-architecture.png)
-Every node in the cluster runs the two agent scripts. All of them save the data to a PostgreSQL instance running in Docker.
 
 ## Scripts
 
